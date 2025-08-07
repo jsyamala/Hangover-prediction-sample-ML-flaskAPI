@@ -18,23 +18,9 @@ Evaluation with precision, recall, F1-score, confusion matrix
 
 Deployment-ready structure (no Streamlit dependency)
 
-Designed for integration with observability dashboards or cloud apps
+Designed for integration with observability dashboards or cloud app
 
-📁 Project Structure
 
-handover-prediction/
-│
-├── data/
-│ └── sample_handover_data.csv # Example telecom KPI and session records
-│
-├── src/
-│ ├── data_preprocessing.py # Cleans and prepares data
-│ ├── model_train.py # Model training and evaluation
-│ └── predict.py # Inference module
-│
-├── app.py # Simple CLI or Flask-based app
-├── requirements.txt
-└── README.md
 
 📊 Sample Features
 
@@ -77,16 +63,16 @@ Dockerized API deployment
 🚀 Run Locally
 
 Clone the repo:
-git clone https://github.com/jsyamala/handover-prediction.git
+git clone [https://github.com/jsyamala/handover-prediction.git](https://github.com/jsyamala/Hangover-prediction-sample-ML-flaskAPI/tree/main)
 
 Set up environment:
 pip install -r requirements.txt
 
 Run training:
-python src/model_train.py
+python model_train.py
 
 Predict:
-python src/predict.py
+python app.py
 
 📈 Future Work
 
